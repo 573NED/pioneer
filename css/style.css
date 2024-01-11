@@ -128,3 +128,43 @@ header a:hover {
     max-width: 100%;
     margin: 0px 0px 0px 0px;
 }
+.production {
+    margin-top: 80px;
+}
+.production__header {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0px 0px 22px 0px;
+}
+.production__list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.production__card__img {
+    width: 200px;
+}
+.production__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 435px;
+    width: 330px;
+    margin: 10px 20px 10px 0px;
+    background:#F5F5F5;
+    padding: 25px;
+}
+.production__list li:nth-child(3), .production__list li:nth-child(6) {
+    margin: 10px 0px 10px 0px; 
+}
+
+.production__card__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+.production__card__link {
+    text-decoration: none;
+    color:#607CE6;
+    align-self: flex-end;
+}
